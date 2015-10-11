@@ -1,7 +1,6 @@
 // options.connection, if given, is a LivedataClient or LivedataServer
 // XXX presently there is no way to destroy/clean up a Collection
 
-var Minimongo = require('minimongo');
 var LocalCollection = require('minimongo/collection');
 var MongoID = require('mongo-id');
 var Meteor = require('meteor-client');
